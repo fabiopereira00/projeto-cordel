@@ -50,16 +50,19 @@ div{
 }
 .imagem{
     background-color: rgb(46, 46, 46);
+    box-shadow: inset 4px 4px 10px 0px rgba(0, 0, 0, 0.592);
 }
 #imagem1{
     background-image: url(../imagens/background001.jpg);
-    background-position: center ;
+    background-position: right;
     background-attachment: fixed;
+    background-size: cover;
 }
 #imagem2{
     background-image: url(../imagens/background002.jpg);
     background-position: right;
     background-attachment: fixed;
+    background-size: cover;
 }
 div p{
     display: inline-block;
@@ -71,6 +74,7 @@ div p{
 .imagem p{
     background-color: rgba(0, 0, 0, 0.317);
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.48);
 }
 
 footer{
@@ -78,7 +82,9 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+}
+footer p{
+    font-size: 1.5vw;
 }
